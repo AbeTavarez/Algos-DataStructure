@@ -21,4 +21,7 @@ function reverseStr(str){
 
 
 
-//? Hints: don't forget to return the new string.
+//? Hints: 
+//? 1- don't forget to call your function. 
+//? 2- don't forget to return the new string.
+//? 3- use console.log() to debug your code.
