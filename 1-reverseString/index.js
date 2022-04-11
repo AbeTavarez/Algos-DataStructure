@@ -4,15 +4,25 @@
 
 //* ===== Examples =====
 //* reverseStr('hello') === 'olleh'
-//* reverseStr('apple') === 'leppa'
+//* reverseStr('apple') === 'elppa'
 
 
 //* @param str === input string. 
 
 function reverseStr(str){
     // TODO: Write your code below this line
+    let reversed = '';
 
+    for (let char of str) {
+        reversed = char + reversed;
+    }
+    return reversed;
 };
+
+console.log(reverseStr('hello'));
+
+console.log(reverseStr('apple'));
+
 
 
 
