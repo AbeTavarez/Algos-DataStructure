@@ -14,7 +14,7 @@ const linearSearch = (arr, target) => {
 };
 
 const result = linearSearch(array, 5); //false
-const found = linearSearch(array, 92);
+const found = linearSearch(array, 92); //true
 
 console.log(result);
 console.log(found);
