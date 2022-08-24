@@ -6,22 +6,15 @@
 //* reverseStr('hello') === 'olleh'
 //* reverseStr('apple') === 'leppa'
 
+//* @param str === input string.
 
-//* @param str === input string. 
+function reverseStr(str) {
+  // TODO: Write your code below this line
+}
 
-function reverseStr(str){
-    // TODO: Write your code below this line
+module.exports = reverseStr;
 
-};
-
-
-
-
-
-
-
-
-//? Hints: 
-//? 1- don't forget to call your function. 
+//? Hints:
+//? 1- don't forget to call your function.
 //? 2- don't forget to return the new string.
 //? 3- use console.log() to debug your code.
